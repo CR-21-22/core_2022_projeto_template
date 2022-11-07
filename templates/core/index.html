@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+    {% block main %}
+    <article>
+        <p>Este website congrega conteúdos desenvolvidos na UC de Complementos de Redes.</p>
+        <p>Trata-se de um template. Pode adaptá-lo e modificá-lo totalmente ao seu gosto.</p>  
+        <p>Desenvolverá páginas para cada tópico da matéria, apresentando os conceitos teóricos e uma "calculadora" que implemente e permita computar os aspectos apresentados</p>
+    </article>
+    
+    <article>
+        {% load static %}
+        <img src="{% static 'core\redes.jpg' %}" width="300px" alt="">
+    </article>
+    {% endblock main %}
+    
+</body>
+</html>
